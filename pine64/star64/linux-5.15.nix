@@ -48,14 +48,14 @@ let
         NLS_CODEPAGE_949 = no;
         VIDEO_OV5640 = no; # conflicts with starfive VIN_SENSOR_OV5640
 
-        DRM_IMG = no;
-        DRM_IMG_ROGUE = no;
+        DRM_IMG = module;
+        DRM_IMG_ROGUE = module;
         DRM_VERISILICON = no;
 
         # brute force disable drm
         CEC_CORE = no;
         CEC_NOTIFIER = no;
-        DRM = no;
+        DRM = module;
         DRM_MIPI_DBI = no;
         DRM_MIPI_DSI = no;
         DRM_DP_AUX_BUS = no;
