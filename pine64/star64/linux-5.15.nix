@@ -57,7 +57,6 @@ let
 
         DRM_IMG_ROGUE = module;
         DRM_IMG_LEGACY = yes;
-        DRM_VERISILICON = no;
       };
 
       extraMeta.branch = "Star64_devel";
