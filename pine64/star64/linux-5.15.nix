@@ -57,6 +57,9 @@ let
 
         DRM_IMG_ROGUE = module;
         DRM_IMG_LEGACY = yes;
+
+        FB = yes;
+        BACKLIGHT_CLASS_DEVICE = yes;
       };
 
       extraMeta.branch = "Star64_devel";
