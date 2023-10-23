@@ -47,19 +47,6 @@ let
         CRYPTO_DEV_CCREE = no; # reverse dep of CRYPTO_SM4
         NLS_CODEPAGE_949 = no;
         VIDEO_OV5640 = no; # conflicts with starfive VIN_SENSOR_OV5640
-
-        DRM_PANEL_BOE_TH101MB31UIG002_28A = yes;
-        DRM_PANEL_JADARD_JD9365DA_H3 = yes;
-        DRM_VERISILICON = yes;
-
-        STARFIVE_INNO_HDMI = yes;
-        STARFIVE_DSI = yes;
-
-        DRM_IMG_ROGUE = module;
-        DRM_IMG_LEGACY = yes;
-
-        FB = yes;
-        BACKLIGHT_CLASS_DEVICE = yes;
       };
 
       extraMeta.branch = "Star64_devel";
